@@ -16,6 +16,9 @@ vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
+-- Github Copilot
+vim.keymap.set('i', '<leader>lo', 'copilot#Accept("<CR>")', {expr=true, silent=true})
+
 
 
 
