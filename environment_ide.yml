@@ -1,0 +1,6 @@
+name: ide
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  gh=2.47.0
